@@ -1,0 +1,18 @@
+<html>
+<head>
+	<meta charset="UTF-8"/>
+</head>
+<body>
+	<form action="/anuncio/guardar" method="post" enctype="multipart/form-data">
+		<p>Nombre: </p>
+		<input type='text' name='nombre'/>
+		<p>Asunto:</p>
+		<input type='text' name='asunto'/>
+		<p>Comentario:</p>
+		<textarea name='comentario' rows=5 cols=40></textarea>
+		<p>Foto:</p><input type='file' name='imagenFile' accept=".jpg, .jpeg"/>		
+		
+		<input type='submit' value='Enviar'/>
+	</form>
+</body>
+</html>
